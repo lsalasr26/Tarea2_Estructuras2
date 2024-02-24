@@ -26,7 +26,7 @@ void Eje_3() {
     }
     cout << "\n\n";
 
-    for (size_t i = 0; i < G.size(); ++i) {
+    for (int i = 0; i < G.size(); ++i) {
         cout << "Vertice " << i + 1 << ": ";
         for (int j : G[i]) {
             cout << j + 1 << " ";

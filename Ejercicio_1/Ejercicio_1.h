@@ -14,7 +14,7 @@ void unirNodos(vector<vector<int>>& vert, int u, int v) {
 
 //Mostrar Grafo
 void mostrarGrafo(const vector<vector<int>>& ady) {
-    for (size_t i = 0; i < ady.size(); ++i) {
+    for (int i = 0; i < ady.size(); ++i) {
         cout << "Vertice " << i + 1 << ": ";
         for (int j : ady[i]) {
             cout << j + 1 << " ";
